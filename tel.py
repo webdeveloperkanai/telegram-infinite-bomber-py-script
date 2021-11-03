@@ -1,5 +1,9 @@
 import pyautogui as pg
 from time import sleep
+from pyfiglet import Figlet
+f = Figlet(font='ascii___')
+
+print(f.renderText("DEV SEC IT"))
 
 message = input("What is your Message ")
 
